@@ -5,7 +5,7 @@ import { buyCake } from "../redux";
 const CakeContainer = (props) => {
   return (
     <div>
-      <h1>number of cakes - {props.numOfCakes}</h1>
+      <h2>number of cakes - {props.numOfCakes}</h2>
       <button onClick={props.buyCake}>Buy cake</button>
     </div>
   );
@@ -13,7 +13,7 @@ const CakeContainer = (props) => {
 
 const mapStateToProps = (state) => {
   return {
-    numOfCakes: state.numOfCakes,
+    numOfCakes: state.cake.numOfCakes,
   };
 };
 
