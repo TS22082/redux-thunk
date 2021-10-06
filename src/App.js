@@ -7,6 +7,7 @@ import HooksCakeContainer from "./Components/HooksCakeContainer";
 import IceCreamContainer from "./Components/IceCreamContainer";
 import NewCakeContainer from "./Components/NewCakeContainer";
 import ItemContainer from "./Components/ItemContainer";
+import UserContainer from "./Components/UserContainer";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <NewCakeContainer />
         <ItemContainer />
         <ItemContainer cake />
+
+        <UserContainer />
       </div>
     </Provider>
   );
